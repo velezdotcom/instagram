@@ -1,0 +1,13 @@
+USANDO AXIOS
+-----------------------
+
+1 - npm install axios
+2 - criar arquivo /src/services/api.js
+3 - 
+import axios from 'axios';
+
+const api = axios.create({
+  baseURL: 'http://10.0.3.2:3333' //( onde seu backend ESTA rodando, no caso do genymotion ele nao reconhece "localhost")
+})
+
+export default api;

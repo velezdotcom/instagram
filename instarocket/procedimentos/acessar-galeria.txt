@@ -1,0 +1,14 @@
+IMAGE PICKER
+---------------------
+
+1- npm install react-native-image-picker
+2- react-native link react-native-image-picker
+3- Adicionar seguintes permissoes no arquivo AndroidManifest.xml:
+
+      <uses-permission android:name="android.permission.CAMERA" />
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_S  TORAGE"/>
+
+
+4- import ImagePicker from 'react-native-image-picker';
+
+5- react-native run-android

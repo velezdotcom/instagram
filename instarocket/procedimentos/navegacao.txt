@@ -1,0 +1,11 @@
+BIBLIOTECAS PARA NAVEGACAO
+----------------------------------------------
+1 - npm install react-navigation react-native-gesture-handler
+2- react-native link react-native-gesture-handler
+3- npm install react-navigation-stack
+4- react-native start --reset-cache (terminal bundler)
+5- react-native start (terminal bundelr)
+6- react-native run-android
+
+Assim feito, devemos ja ver tudo funcionando conforme no video, mas se mesmo assim der erro,
+temos que instalar as dependencias que estao sendo pedidas e reiniciar o bundler com --reset-cache

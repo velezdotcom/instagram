@@ -1,0 +1,5 @@
+INICIANDO REACT-APP
+-------------------
+1- react-native init instarocket
+2- dentro da pasta do projeto com "react-native start" rodando e emulador aberto, vamos rodar em outro terminal:
+   "react-native run-android"
